@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --chakra-colors-brand-blue: #1121b8;
+  --chakra-colors-brand-deepBlue: #000d37;
+
+  --chakra-colors-brand-lightBlue: rgba(131, 179, 253, 0.3);
+
+  --chakra-colors-brand-purple: #5643f2;
+
+  --chakra-colors-black-200: rgba(0, 0, 0, 0.2);
+
+  --chakra-colors-white-100: rgba(255, 255, 255, 0.1);
+  --chakra-colors-white-200: rgba(255, 255, 255, 0.2);
+  --chakra-colors-white-400: rgba(255, 255, 255, 0.4);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  background-color: var(--chakra-colors-brand-deepBlue) !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
